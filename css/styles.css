@@ -1,0 +1,98 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.title {
+  text-align: center;
+  font-size: 64px;
+  line-height: 66px;
+  margin: 32px 0 47px; }
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 600px;
+  margin-left: 406px; }
+  .buttons button.green {
+    width: 270px;
+    color: white;
+    font-size: 32px;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    outline: none;
+    cursor: pointer;
+    background-color: green; }
+  .buttons button.green:hover {
+    width: 270px;
+    color: white;
+    font-size: 32px;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    outline: none;
+    cursor: pointer;
+    background-color: #0a500a; }
+  .buttons button.blue {
+    width: 270px;
+    color: white;
+    font-size: 32px;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    outline: none;
+    cursor: pointer;
+    background-color: blue; }
+  .buttons button.blue:hover {
+    width: 270px;
+    color: white;
+    font-size: 32px;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    outline: none;
+    cursor: pointer;
+    background-color: #0e0e6e; }
+  .buttons button.yellow {
+    width: 270px;
+    color: white;
+    font-size: 32px;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    outline: none;
+    cursor: pointer;
+    background-color: yellow; }
+  .buttons button.yellow:hover {
+    width: 270px;
+    color: white;
+    font-size: 32px;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    outline: none;
+    cursor: pointer;
+    background-color: #72720d; }
+  .buttons button.is-disabled {
+    width: 270px;
+    color: white;
+    font-size: 32px;
+    padding: 4px 0;
+    border: 0;
+    border-radius: 20px;
+    margin-bottom: 32px;
+    outline: none;
+    cursor: pointer;
+    background-color: gray;
+    pointer-events: none; }
+  .buttons button.is-active {
+    padding: 0;
+    border: 4px solid black; }
